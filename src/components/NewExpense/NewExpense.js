@@ -1,12 +1,10 @@
-import React, { useState } from "react";
-
-import ExpenseFrom from "./ExpenseForm";
+import ExpenseForm from "./ExpenseForm";
 import "./NewExpense.css";
 
 const NewExpense = () => {
   return (
     <div className="new-expense">
-      <ExpenseFrom />
+      <ExpenseForm />
     </div>
   );
 };
